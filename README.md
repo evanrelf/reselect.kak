@@ -45,8 +45,7 @@ plug "evanrelf/reselect.kak" config %{
 Download plugin:
 
 ```bash
-$ mkdir -p ~/.config/kak/plugins/
-$ curl -L https://raw.githubusercontent.com/evanrelf/reselect.kak/main/rc/reselect.kak -o ~/.config/kak/plugins/reselect.kak
+$ curl -L https://raw.githubusercontent.com/evanrelf/reselect.kak/main/rc/reselect.kak -o ~/.config/kak/plugins/reselect.kak --create-dirs
 ```
 
 Add to your `kakrc` file:
